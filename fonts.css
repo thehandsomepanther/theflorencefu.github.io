@@ -1,0 +1,19 @@
+@font-face {
+    src: url('fonts/RoslindaleText-Regular.eot'); /* IE < 9 */
+    src: url('fonts/RoslindaleText-Regular.eot?#') format("embedded-opentype"), /* IE 9 */
+         url('fonts/RoslindaleText-Regular.woff2') format("woff2"),
+         url('fonts/RoslindaleText-Regular.woff') format("woff");
+    font-family: 'RoslindaleText';
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    src: url('fonts/RoslindaleText-Italic.eot'); /* IE < 9 */
+    src: url('fonts/RoslindaleText-Italic.eot?#') format("embedded-opentype"), /* IE 9 */
+         url('fonts/RoslindaleText-Italic.woff2') format("woff2"),
+         url('fonts/RoslindaleText-Italic.woff') format("woff");
+    font-family: 'RoslindaleText';
+    font-style: italic;
+    font-weight: normal;
+    }

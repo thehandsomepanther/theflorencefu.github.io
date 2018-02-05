@@ -1,0 +1,100 @@
+@font-face {
+    src: url('fonts/RoslindaleText-Regular.eot'); /* IE < 9 */
+    src: url('fonts/RoslindaleText-Regular.eot?#') format("embedded-opentype"), /* IE 9 */
+         url('fonts/RoslindaleText-Regular.woff2') format("woff2"),
+         url('fonts/RoslindaleText-Regular.woff') format("woff");
+    font-family: 'RoslindaleText';
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    src: url('fonts/RoslindaleText-Italic.eot'); /* IE < 9 */
+    src: url('fonts/RoslindaleText-Italic.eot?#') format("embedded-opentype"), /* IE 9 */
+         url('fonts/RoslindaleText-Italic.woff2') format("woff2"),
+         url('fonts/RoslindaleText-Italic.woff') format("woff");
+    font-family: 'RoslindaleText';
+    font-style: italic;
+    font-weight: normal;
+    }
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.dark a {
+  color: white;
+}
+
+body {
+  font-family: "RoslindaleText-Regular";
+  font-size: 12px;
+  background-color: white;
+  padding: 5%;
+}
+
+.moon {
+text-align: center;
+font-family: "Cousine";
+font-size: 10px;
+float: right;
+
+}
+
+.about {
+  width: 25%;
+  position: fixed;
+  bottom: 10%;
+  float: left;
+}
+
+.nav {
+  top: 5%;
+}
+
+.nav a {
+  font-family: "Cousine";
+  font-size: 10px;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.clock {
+  font-family: "Cousine";
+  font-size: 10px;
+  position: fixed;
+  bottom: 9%;
+  right: 5%;
+
+}
+@media only screen and (max-width: 768px) {
+
+  .nav {
+    top: 8%;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  .nav a {
+    font-family: "Cousine";
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .clock {
+    padding-left: 35%;
+    bottom: unset;
+    top: 30%;
+  }
+  .about {
+    width: 70%;
+    font-size: 12px;
+    top: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+}
