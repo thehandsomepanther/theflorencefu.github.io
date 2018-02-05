@@ -38,8 +38,7 @@ body {
 text-align: center;
 font-family: "Cousine";
 font-size: 10px;
-float: right;
-
+position: relative;
 }
 
 .about {
@@ -51,6 +50,7 @@ float: right;
 
 .nav {
   top: 5%;
+  position: relative;
 }
 
 .nav a {
@@ -63,15 +63,25 @@ float: right;
 .clock {
   font-family: "Cousine";
   font-size: 10px;
-  position: fixed;
-  bottom: 9%;
-  right: 5%;
-
+  position: relative;
+  line-height: .5em;
 }
+
+@media only screen and (min-width: 768px) {
+  .moon {
+    float: right;
+  }
+
+  .clock {
+    bottom: 9%;
+    right: 5%;
+    position: fixed;
+  }
+}
+
 @media only screen and (max-width: 768px) {
 
   .nav {
-    top: 8%;
     padding-left: 12%;
     padding-right: 12%;
   }
@@ -84,15 +94,19 @@ float: right;
     padding-left: 10px;
   }
 
+.moon {
+    top: 11%;
+}
+
   .clock {
-    padding-left: 35%;
+    top: 12%;
     bottom: unset;
-    top: 30%;
+    text-align: center;
   }
   .about {
     width: 70%;
     font-size: 12px;
-    top: 40%;
+    top: 45%;
     padding-left: 10%;
     padding-right: 10%;
 
