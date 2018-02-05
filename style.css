@@ -41,15 +41,8 @@ font-size: 10px;
 position: relative;
 }
 
-.about {
-  width: 25%;
-  position: fixed;
-  bottom: 10%;
-  float: left;
-}
-
 .nav {
-  top: 5%;
+  margin-top: 5%;
   position: relative;
 }
 
@@ -77,9 +70,16 @@ position: relative;
     right: 5%;
     position: fixed;
   }
+
+  .about {
+    width: 25%;
+    position: fixed;
+    bottom: 10%;
+    float: left;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
   .nav {
     padding-left: 12%;
@@ -95,18 +95,18 @@ position: relative;
   }
 
 .moon {
-    top: 11%;
+    margin-top: 11%;
 }
 
   .clock {
-    top: 12%;
+    margin-top: 12%;
     bottom: unset;
     text-align: center;
   }
   .about {
     width: 70%;
     font-size: 12px;
-    top: 45%;
+    margin-top: 15%;
     padding-left: 10%;
     padding-right: 10%;
 
