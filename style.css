@@ -53,14 +53,10 @@ line-height: 1.1em;
   font-size: 10px;
   text-decoration: none;
   padding-right: 15px;
-  color: black;
 }
 
 a:hover {
   text-decoration: underline;
-}
-a,visited {
-  color: black
 }
 
 .clock {
@@ -102,7 +98,7 @@ a,visited {
     text-align: center;
     padding-right: 10px;
     padding-left: 10px;
-    color: white;
+
   }
 
 .moon {
