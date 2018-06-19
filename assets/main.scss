@@ -1,2 +1,125 @@
 ---
 ---
+@font-face {
+    src: url('../assets/fonts/RoslindaleText-Regular.eot'); /* IE < 9 */
+    src: url('../assets/fonts/RoslindaleText-Regular.eot?#') format("embedded-opentype"), /* IE 9 */
+         url('../assets/fonts/RoslindaleText-Regular.woff2') format("woff2"),
+         url('../assets/fonts/RoslindaleText-Regular.woff') format("woff");
+    font-family: 'RoslindaleText';
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url('../assets/fonts/RoslindaleText-Italic.eot'); /* IE < 9 */
+    src: url('../assets/fonts/RoslindaleText-Italic.eot?#') format("embedded-opentype"), /* IE 9 */
+         url('../assets/fonts/RoslindaleText-Italic.woff2') format("woff2"),
+         url('../assets/fonts/RoslindaleText-Italic.woff') format("woff");
+    font-family: 'RoslindaleText';
+    font-style: italic;
+    font-weight: normal;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.dark a {
+  color: white;
+}
+
+body {
+  font-family: "RoslindaleText";
+  font-size: 12px;
+  background-color: white;
+  padding: 1%;
+}
+
+.moon {
+text-align: center;
+font-family: "Cousine";
+font-size: 11px;
+position: relative;
+line-height: 1.1em;
+}
+
+.nav {
+  position: relative;
+}
+
+.nav a {
+  font-family: "Cousine";
+  font-size: 10px;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.clock {
+  font-family: "Cousine";
+  font-size: 10px;
+  position: relative;
+  line-height: .5em;
+}
+
+@media only screen and (min-width: 768px) {
+  .moon {
+    float: right;
+  }
+
+  .clock {
+    bottom: 9%;
+    right: 5%;
+    position: fixed;
+  }
+
+  .about {
+    width: 28%;
+    padding-top: 1%;
+  }
+
+  .history {
+    width: 35%;
+  }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+  .nav {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .nav a {
+    font-family: "Cousine";
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .moon {
+    margin-top: 11%;
+  }
+
+  .clock {
+    margin-top: 12%;
+    bottom: unset;
+    text-align: center;
+  }
+
+  .about {
+    width: 75%;
+    font-size: 12px;
+    margin-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
