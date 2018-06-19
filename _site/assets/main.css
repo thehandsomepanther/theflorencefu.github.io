@@ -1,3 +1,16 @@
+.projects-post-title a {
+  text-decoration: none;
+  color: black; }
+
+.projects-post-desc {
+  width: 28%; }
+
+.post-content {
+  width: 40%; }
+
+.post-content img {
+  width: 40%; }
+
 @font-face {
   src: url("../assets/fonts/RoslindaleText-Regular.eot");
   /* IE < 9 */

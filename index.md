@@ -1,24 +1,6 @@
 ---
 layout: home
 ---
-<div class="nav">
-  <a href="index.html">about</a>
-  <a href="index.html">work</a>
-  <a href="assets/fu-florence-resume.pdf" target="_blank">résumé</a>
-  <a href="https://twitter.com/theflorencefu" target="_blank">twitter</a>
-  <a href="https://www.are.na/florence-fu/channels" target="_blank">are.na</a>
-</div>
-
-<div class="moon">
-
-</div>
-
-<div class="clock">
-<p>Chicago, IL</p>
-<div id="time">
-</div>
-</div>
-
 <div class="about">
 <p>Hi, I'm Florence. I’m a recent graduate of Art History and Journalism from Northwestern University. I’m interested in new media art, design, digital aesthetics and typefaces.</p>
 </div>
