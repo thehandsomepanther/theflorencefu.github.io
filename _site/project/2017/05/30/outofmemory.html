@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>out of memory | Your awesome title</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="out of memory" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A project exploring the structure and fading nature of memory, captured in a micro-site and as XML poetry" />
+<meta property="og:description" content="A project exploring the structure and fading nature of memory, captured in a micro-site and as XML poetry" />
+<link rel="canonical" href="http://localhost:4000/project/2017/05/30/outofmemory.html" />
+<meta property="og:url" content="http://localhost:4000/project/2017/05/30/outofmemory.html" />
+<meta property="og:site_name" content="Your awesome title" />
+<meta property="og:image" content="http://localhost:4000/assets/images/projects/outofmemory-1.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-05-30T20:29:59-05:00" />
+<script type="application/ld+json">
+{"datePublished":"2017-05-30T20:29:59-05:00","url":"http://localhost:4000/project/2017/05/30/outofmemory.html","dateModified":"2017-05-30T20:29:59-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project/2017/05/30/outofmemory.html"},"image":"http://localhost:4000/assets/images/projects/outofmemory-1.png","description":"A project exploring the structure and fading nature of memory, captured in a micro-site and as XML poetry","@type":"BlogPosting","headline":"out of memory","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
+<body><div class="nav">
+  <a href="/">about</a>
+  <a href="/projects">projects</a>
+  <a href="/writing">writing</a>
+  <a href="assets/fu-florence-resume.pdf" target="_blank">résumé</a>
+  <a href="https://twitter.com/theflorencefu" target="_blank">twitter</a>
+  <a href="https://www.are.na/florence-fu/channels" target="_blank">are.na</a>
+</div>
+
+<div class="moon">
+</div>
+
+<div class="clock">
+  <p>Chicago, IL</p>
+  <div id="time"></div>
+</div>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">out of memory</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2017-05-30T20:29:59-05:00" itemprop="datePublished">May 30, 2017
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>This project was written during a course titled “Art, Writing, Technology: New Approaches to the Digital Humanities” taught by <a href="https://dss-edit.com/">Danny Snelson</a>.</p>
+
+<p>Every time we revisit a memory we are reconstructing it. In other words, a memory begins to fade after it’s experienced. A memory further degrades as time goes on–what could originally be told with descriptive, cinematic detail, eventually gets reduced to summarizing words and phrases.</p>
+
+<p><a href="https://out-of-memory.glitch.me">out of memory</a> is a digital library that reflects the way a memory deteriorates every time we revisit it. On the site, you’ll find memories contributed by friends, family, and anonymous strangers reflecting on moments that are as ordinary as eating fried chicken, waiting for an email, and laying down on grass, to really intimate and vulnerable moments of falling in love, heartbreak, coping with mental health, and turning points in life.</p>
+
+<p>Like our own memory, there are limitations to this site. The memories degrade each time a user visits or refreshes the page. Over time, letters are deleted from the memory, making it slightly more difficult to read, but enough to be comprehensible. These memories are not repairable, meaning once it is complete deleted it will not be retrieved again. The site also has a finite amount of storage space of 15 of the memories at a time. In order to make room for newly uploaded memories, the oldest memories are deleted.</p>
+
+<p>While developing this work, I was interested to not only see what people remember, but how they remember. Do some people remember how they felt more than what they saw or smelled? How do people denote “time”? As a precise calendar date or relative to another experience they had? How much were they willing to reveal even if they remained anonymous?</p>
+
+<p>This process made me think about other ways we try to remember today that didn’t exist previously. In <em>The Enduring Ephemeral, or the Future is a Memory,</em> Wendy Hui Kyong Chun says our belief in digital electronic memory as “always there” has led to a crisis in historical documentation. We have grown to document and preserve our lives digitally, that I hope this site might ask us to reflect inwards, rather of outwards onto our memory objects of Instagram photos, Facebook albums, and Snapchat “memories.”</p>
+
+<p>When visitors enter their memories, they are sifted into an XML as follows:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="o">&lt;</span><span class="n">memory</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">title</span><span class="o">&gt;&lt;</span><span class="sr">/title&gt;
+    &lt;feeling&gt;&lt;/</span><span class="n">feeling</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">time</span><span class="o">&gt;&lt;</span><span class="sr">/time&gt;
+    &lt;place&gt;&lt;/</span><span class="n">place</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">event</span><span class="o">&gt;&lt;</span><span class="sr">/event&gt;
+    &lt;company&gt;&lt;/</span><span class="n">company</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">sense</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="n">sight</span><span class="o">&gt;&lt;</span><span class="sr">/sight&gt;
+      &lt;sound&gt;&lt;/soun</span><span class="n">d</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="n">smell</span><span class="o">&gt;&lt;</span><span class="sr">/smell&gt;
+      &lt;touch&gt;&lt;/</span><span class="n">touch</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="n">taste</span><span class="o">&gt;&lt;</span><span class="sr">/taste&gt;
+    &lt;/sense</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/memory&gt;</span></code></pre></figure>
+
+<p><img src="/assets/images/projects/outofmemory-2.png" alt="" /></p>
+
+<p>Thanks to <a href="https://joshshi.com">Josh Shi</a> for helping me bring the site to life.</p>
+
+
+  </div><a class="u-url" href="/project/2017/05/30/outofmemory.html" hidden></a>
+</article>
+
+      </div>
+    </main><script src="/scripts.js"></script>
+</body>
+
+</html>

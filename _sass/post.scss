@@ -1,7 +1,21 @@
+.post-header {
+  padding-top: 1%;
+}
+
+.dt-published {
+  visibility: hidden;
+}
+
 .post-content {
-  width: 40%;
+  width: 35%;
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+.post-content a {
+  color: black;
 }
 
 .post-content img {
-width: 40%;
+
 }

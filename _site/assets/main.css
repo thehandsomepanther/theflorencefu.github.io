@@ -5,11 +5,22 @@
 .projects-post-desc {
   width: 28%; }
 
-.post-content {
-  width: 40%; }
+img {
+  width: 50%; }
 
-.post-content img {
-  width: 40%; }
+.post-header {
+  padding-top: 1%; }
+
+.dt-published {
+  visibility: hidden; }
+
+.post-content {
+  width: 35%;
+  font-size: 14px;
+  line-height: 1.4em; }
+
+.post-content a {
+  color: black; }
 
 @font-face {
   src: url("../assets/fonts/RoslindaleText-Regular.eot");

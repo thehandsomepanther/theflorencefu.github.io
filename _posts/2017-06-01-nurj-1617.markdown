@@ -1,0 +1,25 @@
+---
+layout: post
+title:  Northwestern Undergraduate Research Journal 2016-17
+description: Two years of art direction and print design for the NURJ
+date:   2018-06-01 20:29:59 -0500
+image: "/assets/images/projects/nurj-1617-0.jpg"
+link: https://thenurj.com
+categories: project
+---
+[The NURJ] is an annual student-produced journal that showcases outstanding research done by Northwestern undergraduates from across all academic fields. For two years, I was responsible for the art direction and print design of the 120 page issue.
+
+I inherited the Art Director position after a significant [redesign], so my challenge was figuring out how to move the Journal in a new direction while preserving its brand and voice.
+
+For the year 2016-17, the most significant changes were in the size of the journal and the typography. Due to these text-heavy theses (each can run from 5,000 to 10,000 words), it was more fitting to reduce the size of the journal from a magazine to a smaller 6.7 x 9.8” journal that felt more comfortable to read and flip through in your hands, like a book. I also changed the body text from Garamond Pro to Lava Pro, for warmer and richer paragraphs of text that was still legible at small sizes, and could support our lengthy theses.
+
+![](/assets/images/projects/nurj-1617-0.jpg)
+![](/assets/images/projects/nurj-1617-1.jpg)
+![](/assets/images/projects/nurj-1617-2.jpg)
+![](/assets/images/projects/nurj-1617-3.jpg)
+
+→ See the [2017-18 issue] of the *Journal*
+
+[2017-18 issue]: /2018/04/03/nurj-1718.html
+[The NURJ]: https://thenurj.com
+[redesign]: http://joshshi.com/2017/02/04/nurj.html

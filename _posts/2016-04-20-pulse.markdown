@@ -1,0 +1,54 @@
+---
+layout: post
+title:  PULSE
+description: An instructional score that meditates on the body’s pulse and how it unfolds in time, space, and in relation to other bodies
+date:   2016-04-20 20:29:59 -0500
+image: "assets/images/projects/PULSE.jpg"
+link:
+categories: project
+---
+This score was written during a course titled "Scoring the Avant-Garde" taught by Amanda Jane Graham.
+
+Written in 2016, and performed at ["Performed in the Present Tense"], a symposium at the Block Museum of Art, which paid tribute to the contemporary legacy of Charlotte Moorman, and in 2018 during artist Jen Bervin’s weekend workshop, ["Read with the Spine"], at Northwestern University.
+
+{% highlight ruby %}
+PULSE
+
+Note: The reader has control of the pace and length of the performance, by choosing when to read the next instruction or move onto the next part.
+
+Part I
+Spread yourselves out throughout the room
+Do not talk to or make conversation with anyone
+When asked to make noise, be loud enough so that you can hear others, but soft enough so you can still hear me
+If anyone needs me to repeat the instructions, raise your hand (Repeat instructions however many times necessary.)
+Now walk around the room until I say stop
+Stop
+Using your index and middle finger, take your pulse from your neck
+Internalize this pulse and remove your fingers from your neck
+Now vocalize your pulse by clicking your tongue like this: tsk tsk tsk
+While vocalizing your pulse, walk at the pace of your pulse
+
+Part II
+Now find a partner in the room
+Take your partner’s pulse
+Raise your hand if you need more time
+After you have internalized your partner’s pulse, detach yourself from your your partner
+Vocalize your partner’s pulse
+Now walk at the pace of your partner’s pulse
+
+Part III
+Listen to the other pulses in the room
+Try to match one another
+When the whole room sounds as one
+You may stop
+(If participants do not stop on their own, the reader can dismiss participants by saying, “You may stop.”)
+
+{% endhighlight %}
+
+![](/assets/images/projects/PULSE.jpg)
+
+
+
+
+["Performed in the Present Tense"]: https://nublockmuseum.blog/2016/05/18/scoring-the-symposium-amanda-jane-graham-susy-bielak-on-performed-in-the-present-tense/
+["Read with the Spine"]: https://digitallearning.northwestern.edu/article/2018/02/07/apply-now-%E2%80%93-read-spine
