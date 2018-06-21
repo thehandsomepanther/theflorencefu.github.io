@@ -4,10 +4,12 @@ layout: home
 <ol>{% for post in site.posts %}
   {% if post.categories contains 'project' %}
       {% unless post.categories contains 'unpublished' %}
-      <li>
+      <li class="projects-post-item">
         <div>
           {% if post.image %}
-            <img class="img-{{ post.uid }}" src="{{ post.image }}" />
+            <div class="projects-post-img-container">
+              <img class="projects-post-img img-{{ post.uid }}" src="{{ post.image }}" />
+            </div>
           {% endif %}
 
         <div class="projects-post-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
