@@ -29,13 +29,18 @@ img {
 .post-content a {
   color: black; }
 
+.post-content img {
+  width: 100%; }
+
 @media only screen and (max-width: 767px) {
   .post-content {
-    width: 85%; }
+    width: 100%; }
 
-  .projects-post-desc {
-    width: 85%;
-    font-style: italic; } }
+  .highlight {
+    width: 90%; }
+
+  img {
+    width: 100%; } }
 @font-face {
   src: url("../assets/fonts/RoslindaleText-Regular.eot");
   /* IE < 9 */
