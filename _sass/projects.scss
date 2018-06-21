@@ -10,3 +10,18 @@ color: black;
 img {
   width: 50%;
 }
+
+
+@media only screen and (max-width: 767px) {
+
+.projects-post-title {
+    width: 85%;
+
+    }
+
+.projects-post-desc {
+  width: 85%;
+  font-style: italic;
+  }
+
+}
