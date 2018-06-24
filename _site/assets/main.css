@@ -22,12 +22,13 @@
   visibility: hidden; }
 
 @media only screen and (max-width: 767px) {
-  .projects-post-title {
-    width: 85%; }
-
-  .projects-post-desc {
+  .projects-post-item {
     width: 85%;
-    font-style: italic; } }
+    padding-bottom: 3%;
+    padding-top: 2%; }
+
+  .projects-post-img-container {
+    visibility: hidden; } }
 .post-header {
   padding-top: 1%; }
 

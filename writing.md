@@ -7,12 +7,14 @@ layout: home
     <li class="projects-post-item">
       <div>
         {% if post.image %}
+        <div class="projects-post-img-container">
           <img class="projects-post-img img-{{ post.uid }}" src="{{ post.image }}" />
+        </div>
         {% endif %}
 
-      <div class="projects-post-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
-        <div class="projects-post-desc">{{ post.description }}</div>
-      </div>
+        <div class="projects-post-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+          <div class="projects-post-desc">{{ post.description }}</div>
+        </div>
     </li>
     {% endunless %}
   {% endif %}
