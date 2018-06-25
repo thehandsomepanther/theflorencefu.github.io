@@ -16,16 +16,20 @@ var postImageContainers = document.querySelectorAll(
 
 postImageContainers.forEach((postImageContainer, i) => {
   var postImage = postImageContainer.querySelector(".projects-post-img");
-  postImage.addEventListener("load", function() {
+  if (postImage.complete) {
     textifyImage(i);
-  });
+  } else {
+    postImage.addEventListener("load", function() {
+      textifyImage(i);
+    });
+  }
 });
 
 function textifyImage(index) {
   var MAX_WIDTH_UNITS = document.body.clientWidth / (2 * SLASH_WIDTH);
 
   var imageContainer = postImageContainers[index];
-  var widthUnits = MAX_WIDTH_UNITS / Math.floor(Math.random() * 3 + 2);
+  var widthUnits = Math.floor(MAX_WIDTH_UNITS / (Math.random() + 1.5));
 
   imageContainer.style.width = widthUnits * SLASH_WIDTH;
 
@@ -50,14 +54,7 @@ function textifyImage(index) {
   }
 
   p.innerHTML = text;
-  p.style.position = "absolute";
-  p.style.top = 0;
-  p.style.left = 0;
-  p.style.width = "100%";
   p.style.lineHeight = SLASH_HEIGHT + "px";
-  p.style.margin = 0;
-  p.style.letterSpacing = 0;
-  p.style.fontFamily = "monospace";
 
   imageContainer.appendChild(p);
 }
