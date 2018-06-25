@@ -8,7 +8,7 @@ layout: home
         <div>
           {% if post.image %}
             <div class="projects-post-img-container">
-              <img class="projects-post-img img-{{ post.uid }}" src="{{ post.image }}" />
+              <img class="projects-post-img" src="{{ post.image }}" />
             </div>
           {% endif %}
 
